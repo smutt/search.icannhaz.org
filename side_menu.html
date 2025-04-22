@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="/side_menu.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="search.css"/>
+  </head>
+  <body bgcolor="skyblue">
+    <div id="side_menu">
+      <button type="button" class="collapsible" id="but_soac" onclick="show_hide('but_soac')">SOAC</button>
+      <div class="show_hide" id="sh_soac" style="display: block;">
+        <input type="checkbox" id="cb_alac" name="cb_alac" value="/ham/soac/alac" onchange="handle_click()" checked>
+        <label for="cb_alac">ALAC</label><br/>
+        
+        <input type="checkbox" id="cb_aso" name="cb_aso" value="/ham/soac/aso" onchange="handle_click()" checked>
+        <label for="cb_aso">ASO</label><br/>
+        
+        <input type="checkbox" id="cb_ccnso" name="cb_ccnso" value="/ham/soac/ccnso" onchange="handle_click()" checked>
+        <label for="cb_aso">CCNSO</label><br/>
+
+        <input type="checkbox" id="cb_gac" name="cb_gac" value="/ham/soac/gac" onchange="handle_click()" checked>
+        <label for="cb_gac">GAC</label><br/>
+
+        <input type="checkbox" id="cb_gnso" name="cb_gnso" value="/ham/soac/gnso" onchange="handle_click()" checked>
+        <label for="cb_aso">GNSO</label><br/>
+        
+        <input type="checkbox" id="cb_rssac" name="cb_rssac" value="/ham/soac/rssac" onchange="handle_click()" checked>
+        <label for="cb_aso">RSSAC</label><br/>
+        
+        <input type="checkbox" id="cb_rzerc" name="cb_rzerc" value="/ham/soac/rzerc" onchange="handle_click()" checked>
+        <label for="cb_aso">RZERC</label><br/>
+        
+        <input type="checkbox" id="cb_ssac" name="cb_ssac" value="/ham/soac/ssac" onchange="handle_click()" checked>
+        <label for="cb_aso">SSAC</label><br/>
+      </div>
+
+      <br/>
+      <button type="button" class="collapsible" id="but_icann" onclick="show_hide('but_icann')">ICANN</button>
+      <div class="show_hide" id="sh_icann" style="display: block;">
+        <input type="checkbox" id="cb_icann_announce" name="cb_icann_announce" value="/html/icann/announcements" onchange="handle_click()" checked>
+        <label for="cb_icann_announce">Announcements</label><br/>
+
+        <input type="checkbox" id="cb_icann_blog" name="cb_icann_blog" value="/html/icann/blog" onchange="handle_click()" checked>
+        <label for="cb_icann_blog">Blog</label><br/>
+
+        <input type="checkbox" id="cb_icann_ceo" name="cb_icann_ceo" value="/ham/icann/ceo" onchange="handle_click()" checked>
+        <label for="cb_icann_ceo">CEO</label><br/>
+
+        <input type="checkbox" id="cb_icann_cor" name="cb_icann_cor" value="/ham/icann/cor" onchange="handle_click()" checked>
+        <label for="cb_icann_cor">Correspondence</label><br/>
+        
+        <input type="checkbox" id="cb_icann_ext" name="cb_icann_ext" value="/ham/icann/ext" onchange="handle_click()" checked>
+        <label for="cb_icann_ext">External</label><br/>
+        
+        <input type="checkbox" id="cb_icann_ge" name="cb_icann_ge" value="/ham/icann/ge" onchange="handle_click()" checked>
+        <label for="cb_icann_ge">GE</label><br/>
+        
+        <input type="checkbox" id="cb_icann_octo" name="cb_icann_octo" value="/ham/icann/octo" onchange="handle_click()" checked>
+        <label for="cb_icann_octo">OCTO</label><br/>
+        
+        <input type="checkbox" id="cb_icann_res" name="cb_icann_res" value="/ham/icann/board/resolutions" onchange="handle_click()" checked>
+        <label for="cb_icann_res">Resolutions</label><br/>
+        
+        <input type="checkbox" id="cb_icann_other" name="cb_icann_other" value="/ham/icann/other" onchange="handle_click()" checked>
+        <label for="cb_icann_other">Other</label><br/>
+      </div>
+      <br/>
+      <button type="button" class="tail" onclick="check_all()">Reset</button>
+      <button type="button" class="tail" onclick="uncheck_all()">Clear</button>
+      <br/>
+      <a class="linkies" target="_blank" href="https://icannhaz.org/collections.html">Collections</a>
+    </div>
+  </body>
+</html>

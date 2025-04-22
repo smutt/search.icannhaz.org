@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+}
+
+iframe{
+    display: inline-block;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#haz_menu{
+    width: 10%;
+}
+
+#haz_search{
+    width: 89%;
+}
+
+.collapsible{
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+    border: none;
+    text-align: left;
+    outline: none;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-size: 12vw;
+}
+
+.collapsible:hover{
+    background-color: royalblue;
+}
+
+.show_hide{
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    background-color: skyblue;
+    font-family: sans-serif;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    font-size: 8vw;
+}
+
+.tail{
+    font-family: sans-serif;
+    font-size: 11px;
+    font-size: 8vw;
+    white-space: nowrap;
+}
+
+.linkies{
+    position: relative;
+    top: 20px;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-size: 8vw;
+    white-space: nowrap;
+}
